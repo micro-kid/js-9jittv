@@ -1,17 +1,7 @@
-# js-9jittv
+# throttle
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-9jittv)
+效果：如果短时间内大量触发同一事件，那么在函数执行一次之后，该函数在指定的时间期限内不再工作，直至过了这段时间才重新生效
 
-## branchs
+实现 这里借助 setTimeout 来做一个简单的实现，加上一个状态位 valid 来表示当前函数是否处于工作状态
 
-### m-promise
-
-实现一个 promise
-
-### debounce
-
-防抖
-
-### throttle
-
-节流
+类似控制阀门一样定期开放的函数，也就是让函数执行一次后，在某个时间段内暂时失效，过了这段时间后再重新激活（类似于技能冷却时间）
