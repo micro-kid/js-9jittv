@@ -1,13 +1,5 @@
-# js-9jittv
+# debounce
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-9jittv)
+效果：如果短时间内大量触发同一事件，只会执行一次函数
 
-## branchs
-
-### m-promise
-
-实现一个 promise
-
-### debounce
-
-防抖
+实现：既然前面都提到了计时，那实现的关键就在于 setTimeout 这个函数，由于还需要一个变量来保存计时，考虑维护全局纯净，可以借助闭包来实现
