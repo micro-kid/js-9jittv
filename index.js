@@ -1,25 +1,6 @@
-import mPromise from './m-promise';
+// Import stylesheets
 import './style.css';
 
-function sleep() {
-  return new mPromise((resolve, reject) => {
-    setTimeout(() => {
-      resolve();
-    }, 2000);
-  });
-}
-
+// Write Javascript code!
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS ...</h1>`;
-
-sleep()
-  .then(() => {
-    const appDiv = document.getElementById('app');
-    appDiv.innerHTML = `<h1>JS Starter</h1>`;
-  })
-  .catch((err) => {
-    console.log(err);
-  })
-  .finally(() => {
-    console.log('done');
-  });
+appDiv.innerHTML = `<h1>JS Starter</h1>`;
