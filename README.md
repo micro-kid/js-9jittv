@@ -7,3 +7,7 @@
 ### m-promise
 
 实现一个 promise
+
+### debounce
+
+防抖
