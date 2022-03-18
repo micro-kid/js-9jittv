@@ -15,3 +15,7 @@
 ### throttle
 
 节流
+
+### deepClone
+
+深拷贝
