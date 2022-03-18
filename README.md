@@ -1,21 +1,5 @@
-# js-9jittv
+# deepClone
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-9jittv)
+1.浅拷贝： 将原对象或原数组的引用直接赋给新对象，新数组，新对象／数组只是原对象的一个引用
 
-## branchs
-
-### m-promise
-
-实现一个 promise
-
-### debounce
-
-防抖
-
-### throttle
-
-节流
-
-### deepClone
-
-深拷贝
+2.深拷贝： 创建一个新的对象和数组，将原对象的各项属性的“值”（数组的所有元素）拷贝过来，是“值”而不是“引用”
