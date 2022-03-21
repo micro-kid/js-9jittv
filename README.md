@@ -19,3 +19,7 @@
 ### deepClone
 
 深拷贝
+
+### EventEmitter
+
+发布订阅
