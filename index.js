@@ -12,6 +12,7 @@ store.subscribe(() => {
   appDiv.innerHTML = `<h1>milk: ${milkState.milk}, rice: ${riceState.rice}</h1>`;
 });
 
+// milk
 document.getElementById('milk-add').addEventListener(
   'click',
   () => {
@@ -26,6 +27,8 @@ document.getElementById('milk-sub').addEventListener(
   },
   false
 );
+
+// rice
 document.getElementById('rice-add').addEventListener(
   'click',
   () => {
