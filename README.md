@@ -23,3 +23,7 @@
 ### EventEmitter
 
 发布订阅
+
+### redux
+
+应用程序状态管理
